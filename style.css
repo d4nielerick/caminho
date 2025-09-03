@@ -21,10 +21,11 @@ body {
     margin-bottom: 0.5em;
 }
 
-#author {
-    font-size: 1.2em;
-    font-style: italic;
+#ponto {
+    font-size: 1.5em;
+    font-weight: 300;
     color: #6e6e73;
+    margin-bottom: 1em;
 }
 
 .share-buttons {

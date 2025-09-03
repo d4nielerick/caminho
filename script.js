@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const quoteElement = document.getElementById("quote");
-    const authorElement = document.getElementById("author");
+    const pontoElement = document.getElementById("ponto");
     const twitterButton = document.getElementById("share-twitter");
     const whatsappButton = document.getElementById("share-whatsapp");
 
@@ -13,13 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
             const quoteIndex = dayOfYear % quotes.length;
             const selectedQuote = quotes[quoteIndex];
 
-            quoteElement.textContent = `“${selectedQuote.quote}”`;
-            authorElement.textContent = `— ${selectedQuote.author}`;
+            pontoElement.textContent = `${selectedQuote.ponto}`;
+            quoteElement.innerHTML = `“${selectedQuote.frase.replace(/\n/g, '<br>')}”`;
 
-            const tweetText = encodeURIComponent(`“${selectedQuote.quote}” — ${selectedQuote.author}`);
+            const shareText = `Caminho, ${selectedQuote.ponto}\n\n“${selectedQuote.frase}”`;
+            const tweetText = encodeURIComponent(`Caminho, ${selectedQuote.ponto}: “${selectedQuote.frase}”`);
             twitterButton.href = `https://twitter.com/intent/tweet?text=${tweetText}`;
 
-            const whatsappText = encodeURIComponent(`“${selectedQuote.quote}”\n— ${selectedQuote.author}`);
+            const whatsappText = encodeURIComponent(shareText);
             whatsappButton.href = `https://api.whatsapp.com/send?text=${whatsappText}`;
         })
         .catch(error => {

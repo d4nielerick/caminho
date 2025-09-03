@@ -1,32 +1,24 @@
 {
   "quotes": [
     {
-      "quote": "A coisa mais importante é não ter medo de arriscar.",
-      "author": "Clarice Lispector"
+      "ponto": 1,
+      "frase": "Que a tua vida não seja uma vida estéril. - Sê útil. - Deixa rasto. - Ilumina\ncom o resplendor da tua fé e do teu amor.\nApaga, com a tua vida de apóstolo, o rasto viscoso e sujo que deixaram os\nsemeadores impuros do ódio. - E incendeia todos os caminhos da terra com\no fogo de Cristo que levas no coração."
     },
     {
-      "quote": "Tudo vale a pena quando a alma não é pequena.",
-      "author": "Fernando Pessoa"
+      "ponto": 2,
+      "frase": "Oxalá fossem tais o teu porte e a tua conversação que todos pudessem dizer,\nao ver-te ou ouvir-te falar: “Este lê a vida de Jesus Cristo”."
     },
     {
-      "quote": "A vida é o que acontece enquanto você está ocupado fazendo outros planos.",
-      "author": "John Lennon"
+      "ponto": 3,
+      "frase": "Gravidade. - Deixa esses meneios e trejeitos de mulherzinha ou de moleque. - Que o teu porte exterior seja o reflexo da paz e da ordem do teu espírito."
     },
     {
-      "quote": "O importante não é vencer todos os dias, mas lutar sempre.",
-      "author": "Waldemar Valle Martins"
+      "ponto": 4,
+      "frase": "Não digas: “Eu sou assim..., são coisas do meu caráter”. São coisas da tua\nfalta de caráter. Sê homem - “esto vir”."
     },
     {
-      "quote": "A persistência é o caminho do êxito.",
-      "author": "Charles Chaplin"
-    },
-    {
-        "quote": "A única maneira de fazer um excelente trabalho é amar o que você faz.",
-        "author": "Steve Jobs"
-    },
-    {
-        "quote": "O sucesso é a soma de pequenos esforços repetidos dia após dia.",
-        "author": "Robert Collier"
+        "ponto": 999,
+        "frase": "Qual é o segredo da perseverança? O Amor. - Enamora-te, e não O\ndeixarás."
     }
   ]
 }
