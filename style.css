@@ -47,3 +47,21 @@ body {
 .share-buttons img:hover {
     opacity: 1;
 }
+
+#new-quote-button {
+    margin-top: 2em;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #007aff;
+    background-color: transparent;
+    border: 2px solid #007aff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#new-quote-button:hover {
+    background-color: #007aff;
+    color: #fff;
+}
